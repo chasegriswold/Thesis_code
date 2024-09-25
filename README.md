@@ -8,3 +8,5 @@ I've included all the measurements we took over the course of the research proje
 The statistics code (look for the Z_Test... filename) is very easy to use for doing z-test, t-test, and power analysis if you've already collected measurements and want to know how many more samples you need based on the calculated mean and standard deviation to avoid Type I and Type II errors.
 
 There is also code that can convert all S11 .csv files in a directory into real and imaginary impedance data saved to another pre-created directory, as long as the VNA saves off the angle along with the magnitude in dB. Some older VNA models do not do this.
+
+NOTE: The Smith Chart data in every antenna folder (except the 85 measurements of the silver epoxy copper antenna) are not identical measurements to the LogMag (|S11|) data contained in the other folders. I did not use the convert to Z code I have now written back then, and just took a second measurement in smith chart mode.
