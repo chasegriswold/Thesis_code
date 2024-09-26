@@ -10,3 +10,5 @@ The statistics code (look for the Z_Test... filename) is very easy to use for do
 There is also code that can convert all S11 .csv files in a directory into real and imaginary impedance data saved to another pre-created directory, as long as the VNA saves off the angle along with the magnitude in dB. Some older VNA models do not do this.
 
 NOTE: The Smith Chart data in every antenna folder (except the 85 measurements of the silver epoxy copper antenna) are not identical measurements to the LogMag (|S11|) data contained in the other folders. I did not use the convert to Z code I have now written back then, and just took a second measurement in smith chart mode.
+
+NOTE: The complex permittivity plotting code automatically derives and plots the conductivity from the permittivity measurements you've taken.
